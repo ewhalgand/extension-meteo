@@ -1,0 +1,20 @@
+body {
+  width: 250px;
+  height: 100px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
