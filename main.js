@@ -14,7 +14,7 @@ const temps = async () => {
   const temp = document.querySelector("#temp");
   try {
     const res = await fetch(
-      "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}1&current=temperature_2m"
+      `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}1&current=temperature_2m`
     );
 
     if (!res.ok) {
